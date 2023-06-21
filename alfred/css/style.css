@@ -44,9 +44,9 @@
     content: '';
     position: absolute;
     background-color:#171717;
-    width:0;
+    width:5rem;
     height: 5px;
-    left: 38%;
+    left: 46.5%;
     bottom: -2.5rem;
     margin-bottom: 2rem;
   }
@@ -54,9 +54,6 @@
     font-size: 1rem;
     font-family: 'Open Sans';
     font-weight: 400;
-  }
-  .h2:hover::after{
-    width: 10rem;
   }
   .h2{
     position: relative;
@@ -248,7 +245,7 @@
       width: 10rem;
     }
     .h2::after{
-      left: 25%;
+      left: 38% !important%;
     }
     .buy-iframe{
       margin-left: 0 !important;
@@ -264,7 +261,7 @@
   }
   @media screen and (max-width:1200px) {
     .h2::after{
-      left: 40.5%;
+      left: 44% !important;
     }
     .buy-text{
       width: 100%;
