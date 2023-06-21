@@ -200,11 +200,11 @@
     animation: scroll-x var(--duration) linear infinite;
   }
   
-  @media (prefers-reduced-motion: reduce) {
+/*   @media (prefers-reduced-motion: reduce) {
     .marquee__group {
-      animation-play-state:running;
+      animation-play-state:reduced;
     }
-  }
+  } */
   
   .marquee--vertical {
     --mask-direction: to bottom;
