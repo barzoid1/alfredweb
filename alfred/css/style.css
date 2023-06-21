@@ -199,11 +199,6 @@
     min-width: 100%;
     animation: scroll-x var(--duration) linear infinite;
   }
-  /*   @media (prefers-reduced-motion: reduce) {
-    .marquee__group {
-      animation-play-state:running;
-    }
-  } */
   
   .marquee--vertical {
     --mask-direction: to bottom;
