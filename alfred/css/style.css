@@ -199,7 +199,29 @@
     min-width: 100%;
     animation: scroll-x var(--duration) linear infinite;
   }
+  /*   @media (prefers-reduced-motion: reduce) {
+    .marquee__group {
+      animation-play-state:running;
+    }
+  } */
   
+  .marquee--vertical {
+    --mask-direction: to bottom;
+  }
+  
+  .marquee--vertical,
+  .marquee--vertical .marquee__group {
+    flex-direction: column;
+  }
+  
+  .marquee--vertical .marquee__group {
+    animation-name: scroll-y;
+  }
+  
+  .marquee--reverse .marquee__group {
+    animation-direction: reverse;
+    animation-delay: -3s;
+  }
 
   
   @keyframes scroll-x {
