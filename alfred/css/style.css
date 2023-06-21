@@ -30,7 +30,7 @@
     position: relative;
   }
   
-  .h1:after{
+  .h1::after{
     content: '';
     position: absolute;
     background-color:#FF0000;
@@ -246,11 +246,8 @@
     .home p{
       width: 100% !important;
     }
-    .h1:after{
-      width: 10rem;
-    }
     .h2::after{
-      left: 38% !important;
+      left: 35% !important;
     }
     .buy-iframe{
       margin-left: 0 !important;
