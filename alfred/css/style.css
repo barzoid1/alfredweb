@@ -198,6 +198,8 @@
     gap: var(--gap);
     min-width: 100%;
     animation: scroll-x var(--duration) linear infinite;
+ -moz-animation: scroll-x var(--duration) linear infinite;
+    -webkit-animation: scroll-x var(--duration) linear infinite;
   }
   
   .marquee--vertical {
@@ -209,28 +211,39 @@
     flex-direction: column;
   }
   
+ 
   .marquee--vertical .marquee__group {
     animation-name: scroll-y;
+    -moz-animation-name: scroll-y;
+    -webkit-animation-name: scroll-y;
   }
   
   .marquee--reverse .marquee__group {
     animation-direction: reverse;
+    -moz-animation-direction: reverse;
+    -webkit-animation-direction: reverse;
     animation-delay: -3s;
+    -moz-animation-delay: -3s;
+    -webkit-animation-delay:-3s;
   }
-
-  
   @keyframes scroll-x {
     from {
       transform: translateX(var(--scroll-start));
+      -webkit-transform: translateX(var(--scroll-start));
+      -moz-transform: translateX(var(--scroll-start));
     }
     to {
       transform: translateX(var(--scroll-end));
+      -webkit-transform: translateX(var(--scroll-end));
+      -moz-transform: translateX(var(--scroll-end));
     }
   }
   
   @keyframes scroll-y {
     from {
       transform: translateY(var(--scroll-start));
+      -moz-transform: translateY(var(--scroll-start));
+      -webkit-transform: translateY(var(--scroll-start));
     }
     to {
       transform: translateY(var(--scroll-end));
