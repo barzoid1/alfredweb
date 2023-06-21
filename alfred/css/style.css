@@ -40,6 +40,11 @@
     bottom: -2rem;
     margin-bottom: 2rem;
   }
+    h2{
+        font-family: 'Inter';
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    }
   .h2::after{
     content: '';
     position: absolute;
@@ -62,9 +67,6 @@
   }
   .h2{
     position: relative;
-    font-family: 'Inter';
-    font-weight: 600 !important;
-    font-size: 22px !important;
   }
   h3{
     font-family: 'Inter';
@@ -305,7 +307,7 @@
       width: 100% !important;
     }
     .h2::after{
-      left: 30% !important;
+      left: 37% !important;
     }
     .buy-iframe{
       margin-left: 0 !important;
