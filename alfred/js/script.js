@@ -3,5 +3,5 @@ menu.onclick = () => {
 }
 window.addEventListener("load", function() {
     const loader = document.querySelector('#loader')
-    this.document.body.removeChild(loader)
+    loader.parentNode.removeChild(loader)
   })
