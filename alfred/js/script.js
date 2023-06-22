@@ -1,7 +1,7 @@
 menu.onclick = () => {
     menu.classList.toggle('bx-x')
 }
-window.onLoad = function() {
-    var loader = document.querySelector('#loader')
-    loader.parentNode.removeChild(loader)
-  })
+window.addEventListener("load", function() {
+  const loader = document.querySelector('#loader')
+  this.document.body.removeChild(loader)
+})
