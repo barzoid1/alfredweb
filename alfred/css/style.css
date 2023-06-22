@@ -239,3 +239,28 @@
       margin: 0 !important;
     }
   }
+.end-texts{
+  font-family: 'Open Sans';
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #D2D2D4;
+}
+.end-links a{
+  color: rgba(231, 231, 231, 0.9058823529);
+  font-family: 'Open Sans';
+  font-size: 1.2rem;
+  font-weight: 400;
+  position: relative;
+
+}
+ .end-links a + a::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 1px;
+  height: 20px;
+  background-color: white;
+}
