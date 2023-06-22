@@ -186,7 +186,7 @@
   width: 100%;
     background:url("../images/alfred.jpg");
     background-size:cover;
-    background-position:center; 
+    background-position:right; 
     background-repeat: no-repeat;
     background-blend-mode: multiply; 
     padding: 0 !important;
