@@ -98,6 +98,8 @@
   }
   .nav-link{
     color: white !important;
+    font-size: .9rem;
+    font-weight: 600;
   }
   .nav-link:hover{
    color: #171717 !important;
@@ -128,9 +130,6 @@
     width:4rem;
     margin-right: 1rem;
     }
-    .navbar-brand{
-      font-family: globe;
-    }
   /* end */
   .icon-svg{
     width: 60px;
@@ -158,6 +157,7 @@
   }
 .navbar{
     background-color: #8b1a1a;
+    padding: 0;
 }
 
 .join-btn{
@@ -189,9 +189,9 @@
     background-position:right; 
     background-repeat: no-repeat;
     background-blend-mode: multiply; 
-    padding-top: 0 !important;
+    padding-top: 5rem !important;
   } 
- #road{
+ #road,#about{
   background-color: #8b1a1a;
  }
 /* sections */
@@ -256,7 +256,10 @@ position: fixed;
     .top-img{
       display: block;
       /* height: 20rem; */
-      padding-top: 0;
+      padding-top: 0 !important;
+    }
+    .homeCon{
+      padding-top:0 !important;
     }
   }
   @media screen and (max-width:1200px) {
@@ -265,6 +268,9 @@ position: fixed;
     }
     .buy-iframe{
       margin: 0 !important;
+    }
+    .home{
+      background-position: center;
     }
   }
 .end-texts{
